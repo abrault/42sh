@@ -6,7 +6,7 @@
 #    By: abrault <abrault@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/01/02 13:50:21 by abrault           #+#    #+#              #
-#    Updated: 2014/02/22 18:31:51 by abrault          ###   ########.fr        #
+#    Updated: 2014/02/28 17:56:13 by abrault          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,8 @@ NAME = 42sh
 SRC = src/main.c \
 	  src/display_prompt.c \
 	  src/get_command.c \
-	  src/check_comman.c
+	  src/exec_command.c \
+	  src/special_command.c
 
 LIB = libft/libft.a
 
